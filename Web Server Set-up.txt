@@ -1,0 +1,97 @@
+web server setup
+
+install - linux mint 14.0
+open terminal
+
+>sudo -i
+>whoami
+>apt-get install lamp-server^
+>y
+
+setup mysql password
+(tab to select "<ok>")
+
+open browser
+>localhost/index.html
+
+terminal
+>service apache2 stop
+
+refresh web page (checking 
+start/stop params)
+
+terminal
+>service apache2 start
+>cd /var/www
+>ls -a (list webserver file
+directory)
+>gedit index.html (edit 
+index.html)
+
+close gedit
+
+terminal
+>ls -la
+>chown www-data:www-data index.html
+>ls -la
+>mv index.html /home/ben/
+>cd /home/<user_name>/ 
+>ls
+>mkdir wed
+>mv index.html web/
+>cd web
+>ls
+>cd /var/www
+>ls
+>ln -s /home/<user_name>/web/index.html index.html
+>ls
+>apt-get install phpmyadmin
+>y
+
+chose apache2
+(tab to select ok)
+select yes
+configure password for phpmyadmin
+enter phpmyadmin password
+
+browser
+>localhost/phpmyadmin
+username :root
+password :<password>
+delete "test database"
+privliges - setup new user
+Host:localhost
+select "create db with same name &
+grant all privs
+select create user
+click refresh
+you should see your new db
+
+terminal
+>cd /home/<user_name>/web/
+>ls
+>gedit phpinfo.php
+
+gedit
+phpinfo ([ int $what = INFO_ALL ] ) : bool
+save file
+
+terminal
+>cd /var/www
+>ls
+>ln -s /home/<user_name>/web/phpinfo.php phpinfo.php
+>ls
+
+browser
+>localhost/phpinfo.php
+(this checks PHP readyness)
+
+terminal
+>cd /var/www
+>ls
+>unlink phpinfo.php
+>clean
+
+
+
+
