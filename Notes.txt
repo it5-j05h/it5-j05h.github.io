@@ -1,0 +1,33 @@
+//YO josh, get microsoft teams
+// (R) DW Doin That
+
+//add me bro it5_j05h@outlook.com
+//Not letting me add u on my school teams, will make an account for this specifically
+// NO NEED FOR COMMENT// ITS A TXT FILE
+===========================================
+===========================================
+  https://repl.it/join/rmhelatv-croftytom
+===========================================
+===========================================
+
+Join the Repl.it, means we can real time colaborate, Transferred most of the files over, just need to do the openssh
+
+OS support for Windows, Mac, Linux, Unix, Ios?, Android?
+
+FTP upload - upload files directly
+WebDAV -  WebDAV (Web Distributed Authoring and Versioning)
+Server side scripting
+Shared editing ? (repl.it - does it save direct to git, or is it manual download/upload?)
+Spell checker
+Templates 
+Support for CSS2, Frames, Java, JavaScript, XSLT, XHTML, MathML, XForms, RSS, Atom, XPath
+
+================================================================
+HTMLTIDY - https://en.wikipedia.org/wiki/HTML_Tidy
+CSSTIDY - https://en.wikipedia.org/wiki/CSSTidy
+VALIDATOR - https://en.wikipedia.org/wiki/CSS_HTML_Validator
+================================================================
+
+
+
+DIFFIE HELMAN KEY EXCHANGE, FIGURED OUT A FAIR BIT OF THE JS
